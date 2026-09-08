@@ -10,6 +10,7 @@ class GoalController extends Controller
     public function index()
     {
         $goals = Goal::latest()->get();
+
         return view('goals.index', compact('goals'));
     }
 
@@ -40,6 +41,7 @@ class GoalController extends Controller
     public function destroy(Goal $goal)
     {
         $goal->delete();
+
         return redirect()->route('goals.index');
     }
 }

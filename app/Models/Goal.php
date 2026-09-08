@@ -10,7 +10,10 @@ class Goal extends Model
 
     public function percentage(): int
     {
-        if ($this->target <= 0) return 0;
+        if ($this->target <= 0) {
+            return 0;
+        }
+
         return min(100, (int) round(($this->progress / $this->target) * 100));
     }
 }

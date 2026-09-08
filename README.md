@@ -119,5 +119,5 @@ routes/
 ## 👤 Identitas
 
 - **Nama:** Gurveenderjeet Kaur
-- **NIM:** 544341
-- **Mata Kuliah:** Evolusi Perangkat Lunak (KEPL2026)
+- **NIM:** 24/544341/SV/25392
+- **Mata Kuliah:** Evolusi Perangkat Lunak 
